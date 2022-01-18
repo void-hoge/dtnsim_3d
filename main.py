@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import monitor
 import schedular
 import random
@@ -9,4 +10,5 @@ def main():
 	while mntr.draw(schdlr):
 		schdlr.move()
 
-main()
+if __name__ == '__main__':
+	main()
